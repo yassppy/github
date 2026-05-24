@@ -16,19 +16,19 @@
 
 ## Git
 
-- Creado por **Linus Torvalds** en 2005, después de que la comunidad Linux rompiera la relación con **BitKeeper** (el sistema propietario que usaban).
-- Es un sistema de control de versiones **distribuido**, libre y de código abierto.
-- Principales características:
-  - Realiza **copias de seguridad** del proyecto en cada clon
-  - Facilita el **trabajo en equipo** con ramas y merges
-  - Permite **recuperar cualquier versión anterior** del proyecto
-  - Es extremadamente **rápido** porque la mayoría de operaciones son locales
+> Las herramientas nacen a raíz para solucionar un problema. En 2005, luego de que la comunidad de Linux rompiera lazos con BitKeeper (el sistema propietario que utilizaban hasta entonces), Linus Torvalds diseñó Git. El proyecto nació con el objetivo de ofrecer una alternativa de control de versiones que fuera completamente libre, robusta y distribuida.
+
+Principales características:
+- Realiza **copias de seguridad** del proyecto en cada clon
+- Facilita el **trabajo en equipo** con ramas y merges
+- Permite **recuperar cualquier versión anterior** del proyecto
+- Es extremadamente **rápido** porque la mayoría de operaciones son locales
 - Cada cambio se identifica con un **hash SHA-1**: una cadena alfanumérica de 40 caracteres generada a partir del contenido. Esto garantiza la integridad — si algo cambia, el hash cambia.
 
 ```
 Ejemplo de hash SHA-1:
 a3f5c21b8e4d9071f2cc3a0b56781234abcd5678
-```
+  ```
 
 ---
 
@@ -50,7 +50,7 @@ La diferencia entre un **directorio normal** y un **repositorio Git** es precisa
 Git divide el flujo de trabajo en **tres zonas** principales:
 
 
-![Área de trabajo](assets-git\area_de_trabajo.png)
+![Área de trabajo](assets-git/area_de_trabajo.png)
 
 ```
 ┌─────────────────┐     git add      ┌──────────────┐    git commit    ┌───────────────────┐
@@ -69,7 +69,7 @@ Git divide el flujo de trabajo en **tres zonas** principales:
 
 El **área de repositorio** nos permite almacenar paquetes de cambios a modo de fotos de código cada uno de esas fotos se le conoce como commit.
 
-![Área de repositorio](assets-git\versiones.png)
+![Área de repositorio](assets-git/versiones.png)
 
 ### ¿Qué es un commit?
 
@@ -81,7 +81,7 @@ Un **commit** es una fotografía del estado del proyecto en un momento dado. Cad
 
 ### Analogía: preparar galletas 🍪
 
-![Área de trabajo](assets-git\galleta.png)
+![Área de trabajo](assets-git/galleta.png)
 
 | Paso | Equivalente en Git |
 |------|--------------------|
@@ -94,7 +94,7 @@ Un **commit** es una fotografía del estado del proyecto en un momento dado. Cad
 
 ## Git vs GitHub
 
-![Git vs GitHub](assets-git\github.png)
+![Git vs GitHub](assets-git/github.png)
 
 | | Git | GitHub |
 |---|-----|--------|
